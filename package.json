@@ -1,0 +1,37 @@
+{
+  "name": "tamer",
+  "version": "0.0.1",
+  "description": "taming the zookeeper beast",
+  "author": {
+    "name": "Chris Auer",
+    "email": "chris@thecreditjunction.com"
+  },
+  "repository": "thecreditjunction/node-tamer",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "tamer",
+    "zookeeper"
+  ],
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "node-zookeeper-client": "^0.2.2",
+    "q": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0",
+    "sinon": "^1.14.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
