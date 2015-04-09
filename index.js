@@ -1,7 +1,7 @@
 'use strict';
 
 var zookeeper = require('node-zookeeper-client');
-var Q = require('Q');
+var Q = require('q');
 var _ = require('lodash');
 
 
