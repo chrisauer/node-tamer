@@ -1,4 +1,4 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status](https://travis-ci.org/chrisauer/node-tamer.svg)][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+#  [![NPM version][npm-image]][npm-url] [![Build Status](https://travis-ci.org/chrisauer/node-tamer.svg)][travis-url]
 
 > taming the zookeeper beast
 

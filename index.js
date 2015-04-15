@@ -8,6 +8,7 @@ var _ = require('lodash');
  * Path Children Cache maintains a local cache of
  * all the children locally and manages the watches
  * to keep the cache up to date
+ * 
  * @constructor
  * @param {TamerFramework} framework - the tamer framework object
  * @param {string} path - path to cache locally
@@ -61,7 +62,7 @@ PathChildrenCache.prototype.rebuild = function () {
 
 
 /**
- * get - get the value of a property on the path
+ * get the value of a property on the path
  *
  * @param  {string}  property - property to get from cache
  * @return {promise} promise that resolves with the items value
@@ -112,7 +113,7 @@ TamerFramework.prototype.start = function () {
  * Create a new path children cache object from this framework
  *
  * @param  {string} path  node path to cache
- * @return {PathChildrenCache}      cache object for the given path 
+ * @return {PathChildrenCache}      cache object for the given path
  */
 TamerFramework.prototype.newPathChildrenCache = function (path) {
   return new PathChildrenCache(this, path);
