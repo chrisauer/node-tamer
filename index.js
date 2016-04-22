@@ -81,15 +81,18 @@ PathChildrenCache.prototype.get = function (item) {
  * @param  {string} connectionString description
  * @param  {client} client         optional existing zookeeper client mostly used for testing
  */
-var TamerFramework = function (connectionString, existing) {
-
+var TamerFramework = function (connectionString, authInfo, existing) {
   // allows for mocking for unit testing
   if (existing) {
     this.client = existing;
   }
   // default behavior is to create the client with the connectionstring
   else {
-    this.client = zookeeper.createClient(connectionString);
+    this.client = zookeeper.createClient(connectionString)
+  }
+
+  if(authInfo) {
+    this.client.addAuthInfo(authInfo.scheme, new Buffer(authInfo.userId));
   }
 };
 
