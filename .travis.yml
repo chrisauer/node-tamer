@@ -8,6 +8,6 @@ deploy:
   provider: npm
   email: chris@enlightenmint.com
   api_key:
-    secure: DloaAX1KfMjROIzrmsm3GzY9YLwBv2PWIlut1UCKmdcjKM5VXAyyWdpZH/lTwxPu2DZwj82L1jiv+WFd/UHwo/3JCDsni2YrcfNBTlxjkRGR3SlW59YiH4BwgUoQFKcniIX2GyLZjNrPiy8LbUQ+tKt+XBP+ieuBz0q5Dr12Q5g=
+    secure: s+zxZwXUL2rUuXQMkgnnceOQvJ6fMqny9yttDG6v/wKv+aABZAOmm0Co5QX1d1Ly1hQw1h7erIDHoT+oxToom34D0EazUzGT6w5vZuTaDVVZ3CShGIZd+X1D3VsaV9M6An7JNCARaSjfaA7f3v9uwyytC3vVfsPN/Vk0rgKVETo=
   on:
     tags: true
