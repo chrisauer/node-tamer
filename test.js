@@ -1,4 +1,8 @@
 var Tamer = new require('./index.js');
+var authInfo = {
+	scheme: "service-auth",
+	userId: "borrower-facade"
+};
 var tamer = new Tamer('192.168.59.103:2181');
 
 tamer.start()
